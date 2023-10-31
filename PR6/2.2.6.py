@@ -1,5 +1,5 @@
-import random
-a = [random.random() for g in range(-10,10)]
+from random import *
+a = [randint(1,100) for g in range(-10,10)]
 a2 = []
 a3 = []
 for i in a:
